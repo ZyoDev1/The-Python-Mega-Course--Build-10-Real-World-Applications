@@ -30,4 +30,15 @@ print(notas_estudiantes.values())  #Imprime todos los valores casi como una list
 print(notas_estudiantes.keys())  #Imprime todos los valores casi como una lista, no es exactamente una lista.
 print(notas_estudiantes["John"])
 
+#TUPLE -- Igual que las listas pero son INMUTABLES
+
+monday_temperatures = (1,2,3)  #TUPLE
+monday_temperatures2 = [1,2,3] # LIST
+
+monday_temperatures2.append(5)
+ # Si intentamos añadir un valor a un TUPLE, nos saltará un error y no lo añadirá
+
+print(monday_temperatures)
+print(monday_temperatures2)
+
 
